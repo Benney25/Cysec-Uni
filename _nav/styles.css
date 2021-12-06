@@ -1,0 +1,45 @@
+/* global css */
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    display: inline;
+}
+
+/* custom elements */
+
+
+.navrow {
+    width: 100%; 
+    display: table;
+}
+.navcontainer {
+    display: table-row
+}
+.logo {
+    display: table-cell;
+    display: inline;
+    width: 200px; 
+}
+
+.links {
+    display: table-cell ;
+    display: inline;
+    width: 600px;
+}
+
