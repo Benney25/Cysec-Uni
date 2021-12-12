@@ -1,0 +1,43 @@
+#navbod {
+    background-color: green;
+    max-height: fit-content;
+}
+
+#navrow {
+    width: 100%; 
+    display: table;
+}
+
+#navcontainer {
+    display: table-row;
+}
+
+#navlogo {
+    display: table-cell, inline;
+    float: left;
+    background-color:hotpink;
+}
+
+#navlinkgroup {
+    display: table-cell, inline;
+    background-color: brown;
+}
+
+.navlinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  color: gray;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    display: inline;
+}
